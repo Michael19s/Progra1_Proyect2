@@ -70,8 +70,10 @@
     <ClInclude Include="CasillaSuerte.h" />
     <ClInclude Include="ControlSuerte.h" />
     <ClInclude Include="Dado.h" />
+    <ClInclude Include="Ferrocarril.h" />
     <ClInclude Include="Jugador.h" />
     <ClInclude Include="NodoCasilla.h" />
+    <ClInclude Include="ServicioPublico.h" />
     <ClInclude Include="Solar.h" />
   </ItemGroup>
   <ItemGroup>
@@ -81,9 +83,11 @@
     <ClCompile Include="CasillaSuerte.cpp" />
     <ClCompile Include="ControlSuerte.cpp" />
     <ClCompile Include="Dado.cpp" />
+    <ClCompile Include="Ferrocarril.cpp" />
     <ClCompile Include="Jugador.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="NodoCasilla.cpp" />
+    <ClCompile Include="ServicioPublico.cpp" />
     <ClCompile Include="Solar.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
