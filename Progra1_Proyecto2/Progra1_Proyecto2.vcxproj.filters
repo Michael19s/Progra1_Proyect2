@@ -39,6 +39,12 @@
     <ClInclude Include="Solar.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Servicio Publico y Ferrocarril\Servicio Publico y Ferrocarril\Ferrocarril.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Servicio Publico y Ferrocarril\Servicio Publico y Ferrocarril\ServicioPublico.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CartaSuerte.cpp">
@@ -66,6 +72,12 @@
       <Filter>Archivos de código fuente</Filter>
     </ClCompile>
     <ClCompile Include="Solar.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Servicio Publico y Ferrocarril\Servicio Publico y Ferrocarril\Ferrocarril.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Servicio Publico y Ferrocarril\Servicio Publico y Ferrocarril\ServicioPublico.cpp">
       <Filter>Archivos de código fuente</Filter>
     </ClCompile>
   </ItemGroup>

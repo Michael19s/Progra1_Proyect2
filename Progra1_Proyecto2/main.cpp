@@ -1,6 +1,8 @@
 #include "CartaSuerte.h"
 #include "ControlSuerte.h"
 #include "CasillaSuerte.h"
+#include "ServicioPublico.h"
+#include "Ferrocarril.h"
 #include <iostream>
 using namespace std;
 void main()
@@ -45,4 +47,13 @@ void main()
 	cout<<Casilla1.toString()<<"\n";
 	system("pause");
 	system("cls");
+
+	cout<<"Servicios Publicos y Ferrocarril"<<endl;
+
+	Casilla *c=new ServicioPublico("Servicio de Luz A", 200, 250, 150, "Luz");
+	cout<<((ServicioPublico*)c)->toString();
+	cout<<endl;
+	Casilla *c2=new Ferrocarril("Ferrocarril A", 2, 200, 225, 210);
+	cout<<((Ferrocarril*)c2)->toString();
+	system ("pause");
 }

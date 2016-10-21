@@ -64,6 +64,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\Servicio Publico y Ferrocarril\Servicio Publico y Ferrocarril\Ferrocarril.h" />
+    <ClInclude Include="..\..\Servicio Publico y Ferrocarril\Servicio Publico y Ferrocarril\ServicioPublico.h" />
     <ClInclude Include="Carcel.h" />
     <ClInclude Include="CartaSuerte.h" />
     <ClInclude Include="Casilla.h" />
@@ -74,6 +76,8 @@
     <ClInclude Include="Solar.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Servicio Publico y Ferrocarril\Servicio Publico y Ferrocarril\Ferrocarril.cpp" />
+    <ClCompile Include="..\..\Servicio Publico y Ferrocarril\Servicio Publico y Ferrocarril\ServicioPublico.cpp" />
     <ClCompile Include="Carcel.cpp" />
     <ClCompile Include="CartaSuerte.cpp" />
     <ClCompile Include="Casilla.cpp" />
