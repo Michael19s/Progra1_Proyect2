@@ -32,3 +32,8 @@ void NodoCasilla::setSiguiente(NodoCasilla* pSiguiente)
 	aSiguiente = pSiguiente;
 }
 
+NodoCasilla* NodoCasilla::getSiguiente()
+{
+	return aSiguiente;
+}
+

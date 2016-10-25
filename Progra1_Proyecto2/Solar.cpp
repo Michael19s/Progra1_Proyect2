@@ -3,13 +3,13 @@
 
 Solar::Solar(): Casilla()
 {
-	_Nombre=" ";
-	 _Renta=0;
-	_PrecioTerreno=0;
-	_PrecioConstruccion=0;
-	 _PrecioHipotecario=0;
-	_CantidadCasas=0;
-	_Color=" ";
+	aNombre=" ";
+	 aRenta=0;
+	aPrecioTerreno=0;
+	aPrecioConstruccion=0;
+	 aPrecioHipotecario=0;
+	aCantidadCasas=0;
+	aColor=" ";
 }
 
 
@@ -18,42 +18,45 @@ Solar::~Solar()
 }
 Solar::Solar(string pNom,int pRent,int pPrecTerre,int pPrecConst,int pHipote,int pCantCasa,string pColor): Casilla(pNom){
 
-	_Renta=pRent;
-	_PrecioTerreno=pPrecTerre;
-	_PrecioConstruccion=pPrecConst;
-	_PrecioHipotecario=pHipote;
-	_CantidadCasas=pCantCasa;
-	_Color=pColor;
+	aRenta=pRent;
+	aPrecioTerreno=pPrecTerre;
+	aPrecioConstruccion=pPrecConst;
+	aPrecioHipotecario=pHipote;
+	aCantidadCasas=pCantCasa;
+	aColor=pColor;
 }
 string Solar::getNombre(){
-	return _Nombre;
+	return aNombre;
 }
 int Solar::getRenta(){
-	return _Renta;
+	return aRenta;
 }
 int Solar::getPrecioTerreno(){
-	return _PrecioTerreno;
+	return aPrecioTerreno;
 }
 int Solar::getPrecioConstruccion(){
-	return _PrecioConstruccion;
+	return aPrecioConstruccion;
 }
 int Solar::getPrecioHipotecario(){
-	return _PrecioHipotecario;
+	return aPrecioHipotecario;
 }
 int Solar::getCantidadCasa(){
-	return _CantidadCasas;
+	return aCantidadCasas;
 }
 string Solar::getColor(){
-	return _Color;
+	return aColor;
 }
+
+
+
 string Solar::toString(){
 	stringstream s;
 	s<<Casilla::toString();
-	s<<"Renta :"<<_Renta<<endl;
-	s<<"Precio del Terreno :"<<_PrecioTerreno<<endl;
-	s<<"Precio por construccion : "<<_PrecioConstruccion<<endl
-	<<"Precio hipotecario :"<<_PrecioHipotecario<<endl
-	<<"Cantidad de Casa :"<<_CantidadCasas<<endl
-	<<"Color del Terreno :"<<_Color<<endl;
+	s<<"Renta :"<<aRenta<<endl;
+	s<<"Precio del Terreno :"<<aPrecioTerreno<<endl;
+	s<<"Precio por construccion : "<<aPrecioConstruccion<<endl
+	<<"Precio hipotecario :"<<aPrecioHipotecario<<endl
+	<<"Cantidad de Casa :"<<aCantidadCasas<<endl
+	<<"Color del Terreno :"<<aColor<<endl;
 	return s.str();
 }

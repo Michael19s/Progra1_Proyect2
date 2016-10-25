@@ -1,6 +1,7 @@
 #include "CartaSuerte.h"
 #include "ControlSuerte.h"
 #include "CasillaSuerte.h"
+#include "Dado.h"
 //#include "ServicioPublico.h"
 //#include "Ferrocarril.h"
 #include <iostream>
@@ -56,4 +57,7 @@ void main()
 	//Casilla *c2=new Ferrocarril("Ferrocarril A", 2, 200, 225, 210);
 	//cout<<((Ferrocarril*)c2)->toString();
 	//system ("pause");
+	Dado d1;
+	d1.lanzarDados();
+	system("pause");
 }

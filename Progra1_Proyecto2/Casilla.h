@@ -6,7 +6,7 @@ using namespace std;
 class Casilla
 {
 protected:
-	string _Nombre;
+	string aNombre;
 public:
 	Casilla(string);
 	Casilla();

@@ -4,12 +4,12 @@
 class Solar: public Casilla
 {
 private:
-	int _Renta;
-	int _PrecioTerreno;
-	int _PrecioConstruccion;
-	int _PrecioHipotecario;
-	int _CantidadCasas;
-	string _Color;
+	int aRenta;
+	int aPrecioTerreno;
+	int aPrecioConstruccion;
+	int aPrecioHipotecario;
+	int aCantidadCasas;
+	string aColor;
 public:
 	Solar();
 	Solar(string,int,int,int,int,int,string);

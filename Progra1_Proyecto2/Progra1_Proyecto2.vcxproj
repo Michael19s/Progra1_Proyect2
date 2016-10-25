@@ -72,6 +72,7 @@
     <ClInclude Include="Dado.h" />
     <ClInclude Include="Ferrocarril.h" />
     <ClInclude Include="Jugador.h" />
+    <ClInclude Include="ListaCasillaJugador.h" />
     <ClInclude Include="NodoCasilla.h" />
     <ClInclude Include="ServicioPublico.h" />
     <ClInclude Include="Solar.h" />
@@ -85,6 +86,7 @@
     <ClCompile Include="Dado.cpp" />
     <ClCompile Include="Ferrocarril.cpp" />
     <ClCompile Include="Jugador.cpp" />
+    <ClCompile Include="ListaCasillaJugador.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="NodoCasilla.cpp" />
     <ClCompile Include="ServicioPublico.cpp" />

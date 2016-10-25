@@ -11,7 +11,7 @@ Carcel::~Carcel()
 {
 }
 string Carcel::getNombre(){
-	return _Nombre;
+	return aNombre;
 }
 bool Carcel::cobrar(/*Jugador *pA,Banco *pC*/){
 	//int restante=0;

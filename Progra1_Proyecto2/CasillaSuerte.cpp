@@ -18,7 +18,7 @@ CasillaSuerte::~CasillaSuerte(void)
 }
 string CasillaSuerte::getNombre()
 {
-	return _Nombre;
+	return aNombre;
 }
 
 ControlSuerte* CasillaSuerte::getControlSuerte()

@@ -3,7 +3,7 @@
 
 Casilla::Casilla()
 {
-	_Nombre=" ";
+	aNombre=" ";
 }
 
 
@@ -11,13 +11,13 @@ Casilla::~Casilla()
 {
 }
 Casilla::Casilla(string pNom){
-	_Nombre=pNom;
+	aNombre=pNom;
 }
 string Casilla::toString(){
 	stringstream s;
-	s<<"Nombre :"<<_Nombre<<endl;
+	s<<"Nombre :"<<aNombre<<endl;
 	return s.str();
 }
  string Casilla::getNombre(){
-	 return _Nombre;
+	 return aNombre;
  }
